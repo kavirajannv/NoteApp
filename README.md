@@ -1,16 +1,26 @@
-# React + Vite
+# React Typing App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A small, lightweight typing-speed/practice app built with React + Vite.
+Perfect for learning React concepts (state, hooks, events) and practicing typing.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## React Compiler
+- Typing practice with a sample text
+- Live WPM (words per minute) and accuracy calculation
+- Simple, responsive UI (Tailwind or plain CSS)
+- Easy to extend (add levels, stats, user auth)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
+<img width="1912" height="1023" alt="typeing" src="https://github.com/user-attachments/assets/6c28a89b-2c10-4f7d-a498-09f24aa6a1c8" />
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Tech stack
+
+- React (Functional components + Hooks)
+- Vite (fast dev server & build)
+- CSS / Tailwind (optional)
+- Optional: Git + GitHub for version control
